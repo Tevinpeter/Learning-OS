@@ -1,0 +1,346 @@
+{
+  "segments": [
+    {
+      "id": "seg_0",
+      "start": 0,
+      "end": 3.96,
+      "text": "Why does building a website involve so many tools?"
+    },
+    {
+      "id": "seg_1",
+      "start": 4.16,
+      "end": 5.4,
+      "text": "JavaScript,"
+    },
+    {
+      "id": "seg_2",
+      "start": 5.46,
+      "end": 6.84,
+      "text": "Node.js,"
+    },
+    {
+      "id": "seg_3",
+      "start": 7.02,
+      "end": 8,
+      "text": "npm,"
+    },
+    {
+      "id": "seg_4",
+      "start": 8.16,
+      "end": 9.24,
+      "text": "React,"
+    },
+    {
+      "id": "seg_5",
+      "start": 9.38,
+      "end": 10.36,
+      "text": "Vite."
+    },
+    {
+      "id": "seg_6",
+      "start": 11.08,
+      "end": 14.28,
+      "text": "To understand them, let's follow the problems they help solve."
+    },
+    {
+      "id": "seg_7",
+      "start": 14.88,
+      "end": 16.5,
+      "text": "Imagine the early web."
+    },
+    {
+      "id": "seg_8",
+      "start": 16.5,
+      "end": 19.38,
+      "text": "You open a page, read some text, and click a link."
+    },
+    {
+      "id": "seg_9",
+      "start": 19.86,
+      "end": 23.96,
+      "text": "But what if you want the page to react immediately when someone interacts with it?"
+    },
+    {
+      "id": "seg_10",
+      "start": 24.64,
+      "end": 26.66,
+      "text": "Suppose someone submits an empty form."
+    },
+    {
+      "id": "seg_11",
+      "start": 26.86,
+      "end": 30.7,
+      "text": "Must the browser contact the server just to discover that a name is missing?"
+    },
+    {
+      "id": "seg_12",
+      "start": 31.78,
+      "end": 35.88,
+      "text": "In 1995, Brendan Eich created JavaScript at Netscape."
+    },
+    {
+      "id": "seg_13",
+      "start": 36.42,
+      "end": 41.56,
+      "text": "Developers could now write instructions that ran inside the browser, making pages interactive."
+    },
+    {
+      "id": "seg_14",
+      "start": 42.12,
+      "end": 44.48,
+      "text": "But a language needs something to execute it."
+    },
+    {
+      "id": "seg_15",
+      "start": 44.6,
+      "end": 46.88,
+      "text": "That something is a JavaScript engine."
+    },
+    {
+      "id": "seg_16",
+      "start": 47.28,
+      "end": 50.18,
+      "text": "Chrome, for example, uses an engine called V8."
+    },
+    {
+      "id": "seg_17",
+      "start": 50.84,
+      "end": 52.82,
+      "text": "Now jump to 2009."
+    },
+    {
+      "id": "seg_18",
+      "start": 53.44,
+      "end": 57.56,
+      "text": "Ryan Dahl wanted to build network applications that could handle many connections efficiently."
+    },
+    {
+      "id": "seg_19",
+      "start": 58.12,
+      "end": 63.38,
+      "text": "He combined V8 with capabilities for working with files, networks, and the operating system."
+    },
+    {
+      "id": "seg_20",
+      "start": 63.88,
+      "end": 65.86,
+      "text": "The result was Node.js."
+    },
+    {
+      "id": "seg_21",
+      "start": 66.42,
+      "end": 68.7,
+      "text": "JavaScript could run outside the browser."
+    },
+    {
+      "id": "seg_22",
+      "start": 68.84,
+      "end": 72.82,
+      "text": "It could power a server, read a file, or run a terminal calculator."
+    },
+    {
+      "id": "seg_23",
+      "start": 73.3,
+      "end": 76.54,
+      "text": "Node wasn't created simply to test code before putting it in Chrome,"
+    },
+    {
+      "id": "seg_24",
+      "start": 76.82,
+      "end": 79.7,
+      "text": "it gave JavaScript a home outside the browser."
+    },
+    {
+      "id": "seg_25",
+      "start": 80.3,
+      "end": 81.9,
+      "text": "Then comes another problem."
+    },
+    {
+      "id": "seg_26",
+      "start": 82.34,
+      "end": 86.4,
+      "text": "You're building an application, and you need code that someone else has already written."
+    },
+    {
+      "id": "seg_27",
+      "start": 86.82,
+      "end": 90.96,
+      "text": "How do you install it, track its version, install everything it depends on?"
+    },
+    {
+      "id": "seg_28",
+      "start": 91.56,
+      "end": 93.38,
+      "text": "That's where npm comes in."
+    },
+    {
+      "id": "seg_29",
+      "start": 93.8,
+      "end": 97.02,
+      "text": "Think of npm as your project's supplier and inventory manager."
+    },
+    {
+      "id": "seg_30",
+      "start": 97.4,
+      "end": 100.22,
+      "text": "It helps you install and manage reusable packages."
+    },
+    {
+      "id": "seg_31",
+      "start": 100.82,
+      "end": 104.7,
+      "text": "Your package.json file describes the project and lists its dependencies."
+    },
+    {
+      "id": "seg_32",
+      "start": 105.12,
+      "end": 108.36,
+      "text": "A lock file records the resolved dependency versions."
+    },
+    {
+      "id": "seg_33",
+      "start": 108.88,
+      "end": 112.18,
+      "text": "Now imagine your website has grown into a busy application."
+    },
+    {
+      "id": "seg_34",
+      "start": 112.58,
+      "end": 116.14,
+      "text": "There are notifications, lessons, progress bars, and messages."
+    },
+    {
+      "id": "seg_35",
+      "start": 116.66,
+      "end": 120.32,
+      "text": "When something changes, several parts of the screen may need to change together."
+    },
+    {
+      "id": "seg_36",
+      "start": 120.94,
+      "end": 123.74,
+      "text": "Coordinating those updates manually becomes difficult."
+    },
+    {
+      "id": "seg_37",
+      "start": 124.38,
+      "end": 126.3,
+      "text": "React helps solve that problem."
+    },
+    {
+      "id": "seg_38",
+      "start": 126.74,
+      "end": 132.96,
+      "text": "You divide the interface into reusable components and describe how each should look for the current state."
+    },
+    {
+      "id": "seg_39",
+      "start": 133.48,
+      "end": 138.86,
+      "text": "When that state changes, React coordinates the necessary updates to the page."
+    },
+    {
+      "id": "seg_40",
+      "start": 139.46,
+      "end": 141.04,
+      "text": "But there's still work to do."
+    },
+    {
+      "id": "seg_41",
+      "start": 141.6,
+      "end": 146.7,
+      "text": "React projects often use JSX, a syntax browsers don't understand directly."
+    },
+    {
+      "id": "seg_42",
+      "start": 147.2,
+      "end": 152.92,
+      "text": "Your source files need to be transformed, served during development, and prepared for deployment."
+    },
+    {
+      "id": "seg_43",
+      "start": 153.64,
+      "end": 155.8,
+      "text": "Vite helps handle that workflow."
+    },
+    {
+      "id": "seg_44",
+      "start": 156.12,
+      "end": 161.42,
+      "text": "It provides a development server, transforms source files, and builds production assets."
+    },
+    {
+      "id": "seg_45",
+      "start": 162,
+      "end": 165.26,
+      "text": "During development, it can update the page quickly as you edit."
+    },
+    {
+      "id": "seg_46",
+      "start": 166,
+      "end": 168.04,
+      "text": "So, how do the pieces fit together?"
+    },
+    {
+      "id": "seg_47",
+      "start": 168.96,
+      "end": 170.84,
+      "text": "JavaScript is the language."
+    },
+    {
+      "id": "seg_48",
+      "start": 171.18,
+      "end": 174.96,
+      "text": "Node.js runs JavaScript outside the browser, including development tools."
+    },
+    {
+      "id": "seg_49",
+      "start": 175.46,
+      "end": 178.46,
+      "text": "npm installs packages and runs project scripts."
+    },
+    {
+      "id": "seg_50",
+      "start": 179,
+      "end": 180.94,
+      "text": "React helps build the interface."
+    },
+    {
+      "id": "seg_51",
+      "start": 181.38,
+      "end": 183.9,
+      "text": "Vite helps develop and build the front end."
+    },
+    {
+      "id": "seg_52",
+      "start": 184.4,
+      "end": 188.08,
+      "text": "Finally, the browser runs the delivered JavaScript and displays your application."
+    },
+    {
+      "id": "seg_53",
+      "start": 188.94,
+      "end": 193.9,
+      "text": "These tools didn't emerge as one inevitable chain, and you don't always need all of them."
+    },
+    {
+      "id": "seg_54",
+      "start": 194.22,
+      "end": 196.1,
+      "text": "Each has a different responsibility."
+    },
+    {
+      "id": "seg_55",
+      "start": 196.78,
+      "end": 200.08,
+      "text": "The useful question is: what problem does this tool solve?"
+    },
+    {
+      "id": "seg_56",
+      "start": 200.74,
+      "end": 204.16,
+      "text": "Once you understand that, the names become much easier to remember."
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "segments": [
+    {
+      "id": "v001",
+      "start": 0,
+      "end": 2,
+      "text": "To build a modern web application today,"
+    },
+    {
+      "id": "v002",
+      "start": 2,
+      "end": 4,
+      "text": "you are expected to navigate"
+    },
+    {
+      "id": "v003",
+      "start": 4,
+      "end": 6,
+      "text": "a dizzying gauntlet of tools:"
+    },
+    {
+      "id": "v004",
+      "start": 6,
+      "end": 7,
+      "text": "JavaScript,"
+    },
+    {
+      "id": "v005",
+      "start": 7,
+      "end": 8,
+      "text": "Node.js,"
+    },
+    {
+      "id": "v006",
+      "start": 8,
+      "end": 9,
+      "text": "npm,"
+    },
+    {
+      "id": "v007",
+      "start": 9,
+      "end": 10,
+      "text": "React,"
+    },
+    {
+      "id": "v008",
+      "start": 10,
+      "end": 11,
+      "text": "Vite,"
+    },
+    {
+      "id": "v009",
+      "start": 11,
+      "end": 12,
+      "text": "the list goes on."
+    },
+    {
+      "id": "v010",
+      "start": 12,
+      "end": 15,
+      "text": "Faced with this wall of terminology,"
+    },
+    {
+      "id": "v011",
+      "start": 15,
+      "end": 18,
+      "text": "beginners almost always make the exact same mistake."
+    },
+    {
+      "id": "v012",
+      "start": 18,
+      "end": 20,
+      "text": "They open up a dictionary"
+    },
+    {
+      "id": "v013",
+      "start": 20,
+      "end": 23,
+      "text": "and try to rote-memorize what each tool does."
+    },
+    {
+      "id": "v014",
+      "start": 23,
+      "end": 26,
+      "text": "But memorizing definitions out of context is useless."
+    },
+    {
+      "id": "v015",
+      "start": 26,
+      "end": 30,
+      "text": "To actually understand how this entire stack operates,"
+    },
+    {
+      "id": "v016",
+      "start": 30,
+      "end": 32,
+      "text": "we have to trace the chain of escalation."
+    },
+    {
+      "id": "v017",
+      "start": 32,
+      "end": 33,
+      "text": "We have to look at the specific,"
+    },
+    {
+      "id": "v018",
+      "start": 33,
+      "end": 38,
+      "text": "historical breaking points that forced each of these technologies into existence."
+    },
+    {
+      "id": "v019",
+      "start": 38,
+      "end": 40,
+      "text": "Let's rewind to 1995."
+    },
+    {
+      "id": "v020",
+      "start": 40,
+      "end": 46,
+      "text": "At this point, the web is essentially a library of static documents built with HTML and CSS."
+    },
+    {
+      "id": "v021",
+      "start": 46,
+      "end": 47,
+      "text": "You can read text,"
+    },
+    {
+      "id": "v022",
+      "start": 47,
+      "end": 49,
+      "text": "you can click links,"
+    },
+    {
+      "id": "v023",
+      "start": 49,
+      "end": 51,
+      "text": "but the pages cannot react to you."
+    },
+    {
+      "id": "v024",
+      "start": 51,
+      "end": 54,
+      "text": "This created a frustrating bottleneck."
+    },
+    {
+      "id": "v025",
+      "start": 54,
+      "end": 56,
+      "text": "If a user filled out a registration form,"
+    },
+    {
+      "id": "v026",
+      "start": 56,
+      "end": 58,
+      "text": "but forgot to type in their email address,"
+    },
+    {
+      "id": "v027",
+      "start": 58,
+      "end": 61,
+      "text": "the website couldn't check that empty box itself."
+    },
+    {
+      "id": "v028",
+      "start": 61,
+      "end": 62,
+      "text": "It had to package the form,"
+    },
+    {
+      "id": "v029",
+      "start": 62,
+      "end": 65,
+      "text": "send it all the way to a remote server,"
+    },
+    {
+      "id": "v030",
+      "start": 65,
+      "end": 67,
+      "text": "wait for the server to spot the error,"
+    },
+    {
+      "id": "v031",
+      "start": 67,
+      "end": 68,
+      "text": "and then wait for a response."
+    },
+    {
+      "id": "v032",
+      "start": 68,
+      "end": 70,
+      "text": "To fix this lag,"
+    },
+    {
+      "id": "v033",
+      "start": 70,
+      "end": 73,
+      "text": "Brendan Eich at Netscape created JavaScript."
+    },
+    {
+      "id": "v034",
+      "start": 73,
+      "end": 75,
+      "text": "It was a brand new scripting language"
+    },
+    {
+      "id": "v035",
+      "start": 75,
+      "end": 79,
+      "text": "engineered to live and execute entirely inside the user's web browser."
+    },
+    {
+      "id": "v036",
+      "start": 79,
+      "end": 82,
+      "text": "Now, if a user left a field blank,"
+    },
+    {
+      "id": "v037",
+      "start": 82,
+      "end": 85,
+      "text": "the browser could execute logic and instantly catch the error locally,"
+    },
+    {
+      "id": "v038",
+      "start": 85,
+      "end": 88,
+      "text": "completely skipping the slow trip to the server."
+    },
+    {
+      "id": "v039",
+      "start": 88,
+      "end": 91,
+      "text": "JavaScript solved the interactivity problem,"
+    },
+    {
+      "id": "v040",
+      "start": 91,
+      "end": 93,
+      "text": "but it introduced a new constraint."
+    },
+    {
+      "id": "v041",
+      "start": 93,
+      "end": 97,
+      "text": "The language was physically trapped inside the web browser,"
+    },
+    {
+      "id": "v042",
+      "start": 97,
+      "end": 101,
+      "text": "which meant developers were completely blocked from using it to build anything else."
+    },
+    {
+      "id": "v043",
+      "start": 101,
+      "end": 104,
+      "text": "Jump forward to 2009."
+    },
+    {
+      "id": "v044",
+      "start": 104,
+      "end": 109,
+      "text": "Inside the browser, JavaScript was uniquely designed to wait for user actions,"
+    },
+    {
+      "id": "v045",
+      "start": 109,
+      "end": 110,
+      "text": "like mouse clicks,"
+    },
+    {
+      "id": "v046",
+      "start": 110,
+      "end": 113,
+      "text": "without freezing the rest of the web page."
+    },
+    {
+      "id": "v047",
+      "start": 113,
+      "end": 118,
+      "text": "Developers realized this ability to juggle simultaneous events without blocking the system"
+    },
+    {
+      "id": "v048",
+      "start": 118,
+      "end": 124,
+      "text": "would be incredibly efficient for back-end servers managing massive amounts of network traffic."
+    },
+    {
+      "id": "v049",
+      "start": 124,
+      "end": 128,
+      "text": "The new bottleneck was JavaScript's strict confinement inside the browser."
+    },
+    {
+      "id": "v050",
+      "start": 128,
+      "end": 131,
+      "text": "A developer named Ryan Dahl decided to break it out."
+    },
+    {
+      "id": "v051",
+      "start": 131,
+      "end": 137,
+      "text": "He took V8, the extremely fast JavaScript engine built by Google for the Chrome browser,"
+    },
+    {
+      "id": "v052",
+      "start": 137,
+      "end": 139,
+      "text": "and extracted it entirely."
+    },
+    {
+      "id": "v053",
+      "start": 139,
+      "end": 143,
+      "text": "He enclosed that engine in a new environment called Node.js."
+    },
+    {
+      "id": "v054",
+      "start": 143,
+      "end": 147,
+      "text": "By wiring the engine directly to a computer's operating system,"
+    },
+    {
+      "id": "v055",
+      "start": 147,
+      "end": 151,
+      "text": "Node allowed JavaScript to interact with local file systems and networks."
+    },
+    {
+      "id": "v056",
+      "start": 151,
+      "end": 155,
+      "text": "With that extraction, JavaScript evolved from a simple browser tool"
+    },
+    {
+      "id": "v057",
+      "start": 155,
+      "end": 158,
+      "text": "into a full-scale back-end programming language,"
+    },
+    {
+      "id": "v058",
+      "start": 158,
+      "end": 161,
+      "text": "capable of running complex server architectures."
+    },
+    {
+      "id": "v059",
+      "start": 161,
+      "end": 165,
+      "text": "But Node.js immediately created a new crisis."
+    },
+    {
+      "id": "v060",
+      "start": 165,
+      "end": 169,
+      "text": "Developers started writing thousands of database connectors and server utilities,"
+    },
+    {
+      "id": "v061",
+      "start": 169,
+      "end": 170,
+      "text": "and sharing them."
+    },
+    {
+      "id": "v062",
+      "start": 170,
+      "end": 175,
+      "text": "Teams quickly found themselves drowning in a manual tracking nightmare,"
+    },
+    {
+      "id": "v063",
+      "start": 175,
+      "end": 179,
+      "text": "trying to figure out who had which version of which file."
+    },
+    {
+      "id": "v064",
+      "start": 179,
+      "end": 183,
+      "text": "In 2010, Isaac Schlueter introduced npm,"
+    },
+    {
+      "id": "v065",
+      "start": 183,
+      "end": 184,
+      "text": "the Node Package Manager."
+    },
+    {
+      "id": "v066",
+      "start": 184,
+      "end": 189,
+      "text": "It was an automated inventory system built to organize this exact chaos."
+    },
+    {
+      "id": "v067",
+      "start": 189,
+      "end": 192,
+      "text": "Instead of downloading and emailing zip files,"
+    },
+    {
+      "id": "v068",
+      "start": 192,
+      "end": 195,
+      "text": "a developer could now use a single text file,"
+    },
+    {
+      "id": "v069",
+      "start": 195,
+      "end": 197,
+      "text": "called package.json,"
+    },
+    {
+      "id": "v070",
+      "start": 197,
+      "end": 203,
+      "text": "to instruct npm to automatically fetch the exact code libraries their project required."
+    },
+    {
+      "id": "v071",
+      "start": 203,
+      "end": 206,
+      "text": "Software development became heavily modular."
+    },
+    {
+      "id": "v072",
+      "start": 206,
+      "end": 210,
+      "text": "Engineers could reliably stack their work on top of shared codebases,"
+    },
+    {
+      "id": "v073",
+      "start": 210,
+      "end": 213,
+      "text": "without manually micromanaging every file."
+    },
+    {
+      "id": "v074",
+      "start": 213,
+      "end": 216,
+      "text": "By 2013, the web had grown again."
+    },
+    {
+      "id": "v075",
+      "start": 216,
+      "end": 220,
+      "text": "We are now dealing with platforms where clicking a single like button"
+    },
+    {
+      "id": "v076",
+      "start": 220,
+      "end": 226,
+      "text": "requires the interface to simultaneously update a notification bell, a sidebar, and a total counter."
+    },
+    {
+      "id": "v077",
+      "start": 226,
+      "end": 230,
+      "text": "Using traditional JavaScript for this was a fragile process."
+    },
+    {
+      "id": "v078",
+      "start": 230,
+      "end": 237,
+      "text": "Developers had to write code that manually hunted down and modified every individual visual element on the page."
+    },
+    {
+      "id": "v079",
+      "start": 237,
+      "end": 240,
+      "text": "As applications grew to thousands of elements,"
+    },
+    {
+      "id": "v080",
+      "start": 240,
+      "end": 243,
+      "text": "this approach caused constant bugs and interface crashes."
+    },
+    {
+      "id": "v081",
+      "start": 243,
+      "end": 249,
+      "text": "Facebook engineers created a UI library called React to stop this manual labor."
+    },
+    {
+      "id": "v082",
+      "start": 249,
+      "end": 252,
+      "text": "They introduced a component-based architecture."
+    },
+    {
+      "id": "v083",
+      "start": 252,
+      "end": 257,
+      "text": "With React, developers describe what a piece of the interface should look like based on the current data."
+    },
+    {
+      "id": "v084",
+      "start": 257,
+      "end": 265,
+      "text": "When that data changes, React automatically coordinates all the necessary visual updates across the entire screen."
+    },
+    {
+      "id": "v085",
+      "start": 265,
+      "end": 269,
+      "text": "Web design shifted from manually pushing pixels around a screen,"
+    },
+    {
+      "id": "v086",
+      "start": 269,
+      "end": 273,
+      "text": "to defining strict, logical rules for how data should behave."
+    },
+    {
+      "id": "v087",
+      "start": 273,
+      "end": 277,
+      "text": "Fast forward to 2020, and we hit the final bottleneck."
+    },
+    {
+      "id": "v088",
+      "start": 277,
+      "end": 282,
+      "text": "React uses a highly specialized code syntax called JSX."
+    },
+    {
+      "id": "v089",
+      "start": 282,
+      "end": 286,
+      "text": "Web browsers do not natively understand JSX."
+    },
+    {
+      "id": "v090",
+      "start": 286,
+      "end": 293,
+      "text": "To make the code run, developers used build tools to translate thousands of modular files back into standard JavaScript."
+    },
+    {
+      "id": "v091",
+      "start": 293,
+      "end": 296,
+      "text": "The problem was that these older tools were slow,"
+    },
+    {
+      "id": "v092",
+      "start": 296,
+      "end": 301,
+      "text": "leaving developers waiting for agonizing seconds every time they saved their work."
+    },
+    {
+      "id": "v093",
+      "start": 301,
+      "end": 307,
+      "text": "To eliminate this waiting time, Evan You created Vite, an ultra-fast development server and build tool."
+    },
+    {
+      "id": "v094",
+      "start": 307,
+      "end": 312,
+      "text": "Vite leverages native browser modules to act as a high-speed translator."
+    },
+    {
+      "id": "v095",
+      "start": 312,
+      "end": 319,
+      "text": "As a developer types, Vite instantly translates the specialized code and serves it to the browser without hesitation."
+    },
+    {
+      "id": "v096",
+      "start": 319,
+      "end": 327,
+      "text": "By removing the translation delay, Vite makes writing complex, modular front-end code practically feasible on a daily basis."
+    },
+    {
+      "id": "v097",
+      "start": 327,
+      "end": 331,
+      "text": "When you sit down today to build a modern application like LearningOS,"
+    },
+    {
+      "id": "v098",
+      "start": 331,
+      "end": 337,
+      "text": "all of these historical solutions connect to form a single efficient assembly line on your computer."
+    },
+    {
+      "id": "v099",
+      "start": 337,
+      "end": 340,
+      "text": "At the base, Node.js provides the environment,"
+    },
+    {
+      "id": "v100",
+      "start": 340,
+      "end": 343,
+      "text": "while npm drops in dependencies."
+    },
+    {
+      "id": "v101",
+      "start": 343,
+      "end": 347,
+      "text": "You write your interface on that foundation using React components."
+    },
+    {
+      "id": "v102",
+      "start": 347,
+      "end": 353,
+      "text": "Vite wraps around this stack, processing and translating your code in real time."
+    },
+    {
+      "id": "v103",
+      "start": 353,
+      "end": 357,
+      "text": "Finally, the optimized code is delivered straight into a web browser,"
+    },
+    {
+      "id": "v104",
+      "start": 357,
+      "end": 360,
+      "text": "rendering the finished interface."
+    },
+    {
+      "id": "v105",
+      "start": 360,
+      "end": 366,
+      "text": "Every component in this modern stack functions as a continuous chain of inventions."
+    },
+    {
+      "id": "v106",
+      "start": 366,
+      "end": 370,
+      "text": "Each tool was engineered to solve a specific, historical breaking point,"
+    },
+    {
+      "id": "v107",
+      "start": 370,
+      "end": 378,
+      "text": "stacking together to make the complex applications of today possible."
+    }
+  ]
+}

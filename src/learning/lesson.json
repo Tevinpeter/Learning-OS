@@ -1,0 +1,80 @@
+{
+  "title": "The Chain of Escalation: Building the Modern Web",
+  "schemaVersion": 1,
+  "questions": [
+    {
+      "prompt": "Why is Node more than a testing environment for Chrome?",
+      "blockId": "node",
+      "id": "q-node",
+      "answer": "Node executes JavaScript outside the browser and provides APIs for files, networking, processes, and more."
+    },
+    {
+      "prompt": "What does React coordinate when application state changes?",
+      "blockId": "react",
+      "id": "q-react",
+      "answer": "The necessary interface updates so the page reflects the current state."
+    }
+  ],
+  "media": {
+    "video": {
+      "mimeType": "video/mp4",
+      "src": "/media/001/video.mp4"
+    },
+    "audio": {
+      "mimeType": "audio/wav",
+      "src": "/media/001/audio.wav"
+    }
+  },
+  "lessonId": "001",
+  "blocks": [
+    {
+      "text": {
+        "shared": "Why does building a website involve so many tools?\n\nJavaScript. Node.js. npm. React. Vite.\n\nTo understand them, let's follow the problems they help solve.\n\nImagine the early web. You open a page, read some text, and click a link. But what if you want the page to react immediately when someone interacts with it?\n\nSuppose someone submits an empty form. Must the browser contact the server just to discover that a name is missing?\n\nIn 1995, Brendan Eich created JavaScript at Netscape. Developers could now write instructions that ran inside the browser, making pages interactive.\n\nBut a language needs something to execute it. That something is a JavaScript engine.\n\nChrome, for example, uses an engine called V8."
+      },
+      "title": "JavaScript: making pages interactive",
+      "id": "javascript",
+      "timestamps": {}
+    },
+    {
+      "text": {
+        "shared": "Now jump to 2009.\n\nRyan Dahl wanted to build network applications that could handle many connections efficiently. He combined V8 with capabilities for working with files, networks, and the operating system.\n\nThe result was Node.js.\n\nJavaScript could run outside the browser. It could power a server, read a file, or run a terminal calculator.\n\nNode wasn't created simply to test code before putting it in Chrome. It gave JavaScript a home outside the browser."
+      },
+      "title": "Node.js: outside the browser",
+      "id": "node",
+      "timestamps": {}
+    },
+    {
+      "text": {
+        "shared": "Then comes another problem.\n\nYou're building an application, and you need code that someone else has already written. How do you install it? Track its version? Install everything it depends on?\n\nThat's where npm comes in.\n\nThink of npm as your project's supplier and inventory manager. It helps you install and manage reusable packages.\n\nYour package dot json file describes the project and lists its dependencies. A lockfile records the resolved dependency versions."
+      },
+      "title": "npm: sharing and managing packages",
+      "id": "npm",
+      "timestamps": {}
+    },
+    {
+      "text": {
+        "shared": "Now imagine your website has grown into a busy application.\n\nThere are notifications, lessons, progress bars, and messages. When something changes, several parts of the screen may need to change together.\n\nCoordinating those updates manually becomes difficult.\n\nReact helps solve that problem.\n\nYou divide the interface into reusable components and describe how each should look for the current state.\n\nWhen that state changes, React coordinates the necessary updates to the page."
+      },
+      "title": "React: coordinating the interface",
+      "id": "react",
+      "timestamps": {}
+    },
+    {
+      "text": {
+        "shared": "But there's still work to do.\n\nReact projects often use JSX, a syntax browsers don't understand directly. Your source files need to be transformed, served during development, and prepared for deployment.\n\nVite helps handle that workflow.\n\nIt provides a development server, transforms source files, and builds production assets. During development, it can update the page quickly as you edit."
+      },
+      "title": "Vite: development and production",
+      "id": "vite",
+      "timestamps": {}
+    },
+    {
+      "text": {
+        "shared": "So how do the pieces fit together?\n\nJavaScript is the language.\n\nNode.js runs JavaScript outside the browser, including development tools.\n\nnpm installs packages and runs project scripts.\n\nReact helps build the interface.\n\nVite helps develop and build the frontend.\n\nFinally, the browser runs the delivered JavaScript and displays your application.\n\nThese tools didn't emerge as one inevitable chain, and you don't always need all of them. Each has a different responsibility.\n\nThe useful question is: what problem does this tool solve?\n\nOnce you understand that, the names become much easier to remember."
+      },
+      "title": "How the pieces fit together",
+      "id": "recap",
+      "timestamps": {}
+    }
+  ],
+  "revision": 1
+}

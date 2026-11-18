@@ -1,0 +1,12 @@
+.workspace { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 1.5rem; }
+.workspace > * { min-width: 0; }
+video, audio { width: 100%; }
+.transcript { max-height: 65vh; overflow: auto; overscroll-behavior: contain; scrollbar-gutter: stable; }
+.transcript article { padding: 1rem; border-left: 3px solid transparent; }
+.transcript .active-block { border-left-color: #d83145; background: #d8314515; }
+button { cursor: pointer; padding: .6rem 1rem; margin: .25rem; }
+button:disabled { cursor: default; }
+button:focus-visible, input:focus-visible { outline: 3px solid #437ada; outline-offset: 2px; }
+input[type="range"] { width: 100%; }
+@media (max-width: 800px) { .workspace { grid-template-columns: 1fr; } .transcript { max-height: 45vh; } }
+@media (prefers-reduced-motion: reduce) { .transcript { scroll-behavior: auto; } }
